@@ -1,0 +1,50 @@
+body{
+   /* background-image: url("../../assets/predios.png");*/
+}
+
+.main-screen-container{
+    width: 100%;
+  /*  max-width: 1120px;*/
+  /*  height: 100vh;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-screen-container section{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.buttonMainScreen{
+    width: 100%;
+    min-width: 150px;
+}
+
+.divButtons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.divBtn1{
+    width: 40%;
+    min-width: 250px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.divBtn2{
+    width: 40%;
+    min-width: 250px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.titleMain{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}

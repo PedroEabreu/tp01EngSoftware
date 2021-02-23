@@ -1,0 +1,93 @@
+.register-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.register-container{
+    width: 100%;
+    max-width: 1120px;
+    padding-top: 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container {
+    width: 100%;
+    padding: 96px;
+    padding-top: 0px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.register-container .content section{
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-container .content section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.register-container .content section p{
+    font-size: 18px;
+    color:#737380;
+    line-height: 32px;
+}
+
+.register-container form{
+    width: 100%;
+    max-width: 450px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.register-container form input{
+    margin-top: 2px;
+    min-width: 250px
+}
+
+.register-container form .input-group{
+    display: flex;
+}
+
+.register-container form .input-group input + input{
+    margin-left: 8px;
+}
+
+.forms{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.root{ 
+    min-width: 100%;
+    height: inherit;
+}
+
+.label{
+    width: 100%;
+    margin-left: 7px;
+    margin-top:2px;
+    color:rgb(61, 59, 59)
+}
+
+.divBtn3 {
+    width: 100%;
+    min-width: 250px;
+    padding-left: 0px;
+    text-align: center;
+}   
+
+.btRegister{
+    width: 50%;
+    min-width: 220px;
+}
