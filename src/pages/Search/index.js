@@ -76,7 +76,7 @@ export default function Search(){
                     <p>{Intl.NumberFormat('pt-BR',{style: 'currency',currency: 'BRL'}).format(55555)}</p>
                  </div>
 
-                 <button onPress={ () => {setAgendar(true)}} >Agendar</button>
+                 <Link className="" to="/scheduleVisit"><button>Agendar</button></Link>
 
                 </li> 
                 
@@ -104,7 +104,7 @@ export default function Search(){
                     <p>{Intl.NumberFormat('pt-BR',{style: 'currency',currency: 'BRL'}).format(55555)}</p>
                  </div>
 
-                 <button>Agendar</button>
+                 <Link className="" to="/scheduleVisit"><button>Agendar</button></Link>
 
                 </li> 
 
@@ -132,7 +132,8 @@ export default function Search(){
                     <p>{Intl.NumberFormat('pt-BR',{style: 'currency',currency: 'BRL'}).format(55555)}</p>
                  </div>
 
-                 <button>Agendar</button>
+                 <Link className="" to="/scheduleVisit"><button>Agendar</button></Link>
+
 
                 </li> 
 
@@ -160,7 +161,7 @@ export default function Search(){
                     <p>{Intl.NumberFormat('pt-BR',{style: 'currency',currency: 'BRL'}).format(55555)}</p>
                  </div>
 
-                 <button>Agendar</button>
+                 <Link className="" to="/scheduleVisit"><button>Agendar</button></Link>
 
                 </li> 
                 

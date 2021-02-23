@@ -13,7 +13,7 @@ export default function ScheduleVisit(){
         <div className="scheduleVisit">
                 <header>
                     <span><h2>AGENDAR VISITA</h2></span>
-                    <Link className="button" to="/register">Cadastrar novo imóvel</Link>
+                    <Link className="button" to="/search">Voltar</Link>
                     <div><Link className="button" to="/">Voltar a tela principal</Link></div>
                 </header>
              
