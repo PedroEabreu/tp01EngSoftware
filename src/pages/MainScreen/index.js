@@ -5,7 +5,7 @@ import {Link, useHistory} from 'react-router-dom';
 
 export default function MainScreen(){
     return(
-        <div>
+        <div className="divPrincipal">
             <h1 className="titleMain">1 ANDAR</h1>
             <div className="main-screen-container">
                 <section className="form">
@@ -16,7 +16,6 @@ export default function MainScreen(){
                             <div className="divBtn2"><Link className="button" to="/search">Agendar visita</Link></div>
                         </div>
                 </section>
-                {/*<img src={predioImage} alt="background"/>*/}
             </div>
         </div>
     );

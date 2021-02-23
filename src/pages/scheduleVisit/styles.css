@@ -6,6 +6,9 @@
     background-color: white;
     min-height: 500px;
     margin:100px;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
 }
 
 .scheduleVisit header{

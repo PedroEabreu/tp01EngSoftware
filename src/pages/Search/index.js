@@ -22,6 +22,7 @@ export default function Search(){
     const [agendar,setAgendar] = useState(false);
     return(
         <div className="profile-container">
+            
             <header>
                 <span>Bem vindo.{ongName}</span>
                 <Link className="button" to="/register">Cadastrar novo imóvel</Link>
@@ -60,8 +61,6 @@ export default function Search(){
                     <strong>ALUGUEL:</strong>
                     <p>{Intl.NumberFormat('pt-BR',{style: 'currency',currency: 'BRL'}).format(55555)}</p>
 
-                    <strong>QUARTOS</strong>
-                    <p>Casa nova blablabla</p>
 
                  </div>
 

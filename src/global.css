@@ -10,6 +10,7 @@
 body{
     font: 400 14px Roboto,sans-serif;
     background:#f0f0f5;
+    background:#e8edf3;
     -webkit-font-smoothing:antialiased;
 }
 
@@ -54,6 +55,7 @@ select{
     transition: filter 0.2s;
     text-align: center;
     margin: 2px;
+    border: solid 2px;
 
 }
 

@@ -1,5 +1,11 @@
 body{
-   /* background-image: url("../../assets/predios.png");*/
+    /*background-image: url("../../assets/predios.png");*/
+    
+}
+
+.divPrincipal{
+    background-image:  url("../../assets/predios.png");
+    background-position: center;
 }
 
 .main-screen-container{
@@ -27,6 +33,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 50px;
+    height: 720px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .divBtn1{
@@ -45,6 +55,9 @@ body{
 
 .titleMain{
     text-align: center;
-    margin-top: 250px;
-    margin-bottom: 300px;
+  /*  margin-top: 250px;*/
+   /* margin-bottom: 300px;*/
+   position: relative;
+   top: 250px;
+   color:gray
 }

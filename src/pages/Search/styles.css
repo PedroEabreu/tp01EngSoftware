@@ -11,6 +11,7 @@
     max-width: 1180px;
     padding: 0 30px;
     margin: 32px auto;
+    
 }
 
 .profile-container header{
@@ -63,7 +64,10 @@
     background: #fff;
     padding: 24px;
     border-radius: 8px;
+    border: solid;
+    border-color: gray;
     position: relative;
+    border-width: 1px;
 }
 
 .profile-container ul li button{
