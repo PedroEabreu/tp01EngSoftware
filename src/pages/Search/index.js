@@ -18,24 +18,7 @@ export default function Search(){
         
     });*/
 
-    async function handleDeleteIncident(id){
-      /*try{
-        await api.delete(`incidents/${id}`, {
-          headers: {
-              Authorization: ongId,
-          }  
-        });
-        setIncidents(incidents.filter(incident => incident.id!=id));
-      }catch(err){
-         alert('Erro ao deletar caso, tente novamente.');
-      }  */
-    }
 
-
-    function handleLogout(){
-      /*  localStorage.clear();
-        history.push('/');*/
-    }
     const [agendar,setAgendar] = useState(false);
     return(
         <div className="profile-container">
